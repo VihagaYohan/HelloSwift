@@ -21,7 +21,7 @@ struct HikeList: View {
                 }
             }.navigationTitle("Hikes")
             .navigationDestination(for: Hike.self) { hike in
-                    Text(hike.name)
+                    HikeDetailsScreen(hike: hike)
                 }
         }
     }

@@ -14,6 +14,7 @@
 		1587B9192C0B53A4007866EA /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587B9182C0B53A4007866EA /* Hike.swift */; };
 		1587B91B2C0B5ACB007866EA /* HikeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587B91A2C0B5ACB007866EA /* HikeList.swift */; };
 		1587B91D2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1587B91C2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png */; };
+		15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1587B9182C0B53A4007866EA /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		1587B91A2C0B5ACB007866EA /* HikeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeList.swift; sourceTree = "<group>"; };
 		1587B91C2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-06-06 at 7.52.51 PM.png"; sourceTree = "<group>"; };
+		15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				1587B91C2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png */,
 				152250332C0A15D80057FE43 /* Preview Content */,
 				1587B91A2C0B5ACB007866EA /* HikeList.swift */,
+				15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				1587B9192C0B53A4007866EA /* Hike.swift in Sources */,
 				152250302C0A15D60057FE43 /* ContentView.swift in Sources */,
 				1587B91B2C0B5ACB007866EA /* HikeList.swift in Sources */,
+				15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */,
 				1522502E2C0A15D60057FE43 /* HelloSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
