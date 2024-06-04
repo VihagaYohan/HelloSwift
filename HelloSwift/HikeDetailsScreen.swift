@@ -9,12 +9,18 @@ import SwiftUI
 
 struct HikeDetailsScreen: View {
     let hike: Hike
+    @State private var zoomed: Bool = false
     
     var body: some View {
         VStack {
             Image(hike.photo)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: zoomed ? .fill: .fit)
+                .onTapGesture {
+                    withAnimation {
+                        zoomed.toggle()
+                    }
+                }
             Text(hike.name)
             Text("\(hike.miles.formatted()) miles")
             Spacer()
