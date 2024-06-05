@@ -20,6 +20,7 @@
 		15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */; };
 		15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E572C10985D00ECCB39 /* BindingHome.swift */; };
 		15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */; };
+		15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailsScreen.swift; sourceTree = "<group>"; };
 		15CD2E572C10985D00ECCB39 /* BindingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHome.swift; sourceTree = "<group>"; };
 		15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentHome.swift; sourceTree = "<group>"; };
+		15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment_iOS17.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */,
+				15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */,
 				15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */,
 				1522502E2C0A15D60057FE43 /* HelloSwiftApp.swift in Sources */,
+				15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */,
 				154878EE2C0F5BE7006A29B3 /* ListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
