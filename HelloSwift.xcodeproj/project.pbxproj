@@ -19,6 +19,7 @@
 		1587B91D2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1587B91C2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png */; };
 		15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */; };
 		15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E572C10985D00ECCB39 /* BindingHome.swift */; };
+		15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		1587B91C2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-06-06 at 7.52.51 PM.png"; sourceTree = "<group>"; };
 		15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailsScreen.swift; sourceTree = "<group>"; };
 		15CD2E572C10985D00ECCB39 /* BindingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHome.swift; sourceTree = "<group>"; };
+		15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		1522502C2C0A15D60057FE43 /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
+				15CD2E592C109AC300ECCB39 /* Environment */,
 				15CD2E562C10984B00ECCB39 /* Binding */,
 				154878E82C0F3B29006A29B3 /* States */,
 				1587B9172C0B5394007866EA /* Models */,
@@ -113,6 +116,14 @@
 				15CD2E572C10985D00ECCB39 /* BindingHome.swift */,
 			);
 			path = Binding;
+			sourceTree = "<group>";
+		};
+		15CD2E592C109AC300ECCB39 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */,
+			);
+			path = Environment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 				154878EA2C0F58D9006A29B3 /* CountScreen.swift in Sources */,
 				152250302C0A15D60057FE43 /* ContentView.swift in Sources */,
 				154878EC2C0F5A12006A29B3 /* ToggleScreen.swift in Sources */,
+				15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */,
 				1587B91B2C0B5ACB007866EA /* HikeList.swift in Sources */,
 				15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */,
 				15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */,
