@@ -26,6 +26,7 @@
 		15CC9A372C1D5D35008D25BE /* NumberFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A362C1D5D35008D25BE /* NumberFormatterExtensions.swift */; };
 		15CC9A3A2C1D5E1A008D25BE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A392C1D5E1A008D25BE /* LoginView.swift */; };
 		15CC9A3D2C1D5F3E008D25BE /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */; };
+		15CC9A402C1D6265008D25BE /* LoginFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A3F2C1D6265008D25BE /* LoginFormError.swift */; };
 		15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E572C10985D00ECCB39 /* BindingHome.swift */; };
 		15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */; };
 		15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */; };
@@ -52,6 +53,7 @@
 		15CC9A362C1D5D35008D25BE /* NumberFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterExtensions.swift; sourceTree = "<group>"; };
 		15CC9A392C1D5E1A008D25BE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		15CC9A3F2C1D6265008D25BE /* LoginFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormError.swift; sourceTree = "<group>"; };
 		15CD2E572C10985D00ECCB39 /* BindingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHome.swift; sourceTree = "<group>"; };
 		15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentHome.swift; sourceTree = "<group>"; };
 		15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment_iOS17.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		15CC9A382C1D5DE9008D25BE /* Validation */ = {
 			isa = PBXGroup;
 			children = (
+				15CC9A3E2C1D6250008D25BE /* FormErrors */,
 				15CC9A3B2C1D5F2A008D25BE /* Extensions */,
 				15CC9A392C1D5E1A008D25BE /* LoginView.swift */,
 			);
@@ -190,6 +193,14 @@
 				15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		15CC9A3E2C1D6250008D25BE /* FormErrors */ = {
+			isa = PBXGroup;
+			children = (
+				15CC9A3F2C1D6265008D25BE /* LoginFormError.swift */,
+			);
+			path = FormErrors;
 			sourceTree = "<group>";
 		};
 		15CD2E562C10984B00ECCB39 /* Binding */ = {
@@ -298,6 +309,7 @@
 				15CC9A322C1D5564008D25BE /* ProductListViewModel.swift in Sources */,
 				15CC9A292C1D52FF008D25BE /* ProductListHome.swift in Sources */,
 				154878EE2C0F5BE7006A29B3 /* ListScreen.swift in Sources */,
+				15CC9A402C1D6265008D25BE /* LoginFormError.swift in Sources */,
 				15CC9A2D2C1D532E008D25BE /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
