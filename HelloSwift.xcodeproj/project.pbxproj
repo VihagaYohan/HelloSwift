@@ -24,6 +24,8 @@
 		15CC9A322C1D5564008D25BE /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A312C1D5564008D25BE /* ProductListViewModel.swift */; };
 		15CC9A342C1D5959008D25BE /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A332C1D5959008D25BE /* StoreModel.swift */; };
 		15CC9A372C1D5D35008D25BE /* NumberFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A362C1D5D35008D25BE /* NumberFormatterExtensions.swift */; };
+		15CC9A3A2C1D5E1A008D25BE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A392C1D5E1A008D25BE /* LoginView.swift */; };
+		15CC9A3D2C1D5F3E008D25BE /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */; };
 		15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E572C10985D00ECCB39 /* BindingHome.swift */; };
 		15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */; };
 		15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */; };
@@ -48,6 +50,8 @@
 		15CC9A312C1D5564008D25BE /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 		15CC9A332C1D5959008D25BE /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
 		15CC9A362C1D5D35008D25BE /* NumberFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterExtensions.swift; sourceTree = "<group>"; };
+		15CC9A392C1D5E1A008D25BE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		15CD2E572C10985D00ECCB39 /* BindingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHome.swift; sourceTree = "<group>"; };
 		15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentHome.swift; sourceTree = "<group>"; };
 		15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment_iOS17.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 		1522502C2C0A15D60057FE43 /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
+				15CC9A382C1D5DE9008D25BE /* Validation */,
 				15CC9A272C1D52E0008D25BE /* Consume_API */,
 				15CD2E592C109AC300ECCB39 /* Environment */,
 				15CD2E562C10984B00ECCB39 /* Binding */,
@@ -166,6 +171,23 @@
 			isa = PBXGroup;
 			children = (
 				15CC9A362C1D5D35008D25BE /* NumberFormatterExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		15CC9A382C1D5DE9008D25BE /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				15CC9A3B2C1D5F2A008D25BE /* Extensions */,
+				15CC9A392C1D5E1A008D25BE /* LoginView.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		15CC9A3B2C1D5F2A008D25BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -270,6 +292,8 @@
 				15CC9A2F2C1D5369008D25BE /* Webservice.swift in Sources */,
 				15CC9A342C1D5959008D25BE /* StoreModel.swift in Sources */,
 				1522502E2C0A15D60057FE43 /* HelloSwiftApp.swift in Sources */,
+				15CC9A3A2C1D5E1A008D25BE /* LoginView.swift in Sources */,
+				15CC9A3D2C1D5F3E008D25BE /* String+Extensions.swift in Sources */,
 				15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */,
 				15CC9A322C1D5564008D25BE /* ProductListViewModel.swift in Sources */,
 				15CC9A292C1D52FF008D25BE /* ProductListHome.swift in Sources */,
