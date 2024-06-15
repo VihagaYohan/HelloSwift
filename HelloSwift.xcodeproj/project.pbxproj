@@ -27,6 +27,8 @@
 		15CC9A3A2C1D5E1A008D25BE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A392C1D5E1A008D25BE /* LoginView.swift */; };
 		15CC9A3D2C1D5F3E008D25BE /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */; };
 		15CC9A402C1D6265008D25BE /* LoginFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A3F2C1D6265008D25BE /* LoginFormError.swift */; };
+		15CC9A422C1D62E8008D25BE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A412C1D62E8008D25BE /* RegisterView.swift */; };
+		15CC9A442C1D6393008D25BE /* RegisterFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A432C1D6393008D25BE /* RegisterFormError.swift */; };
 		15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E572C10985D00ECCB39 /* BindingHome.swift */; };
 		15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */; };
 		15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */; };
@@ -54,6 +56,8 @@
 		15CC9A392C1D5E1A008D25BE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		15CC9A3C2C1D5F3E008D25BE /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		15CC9A3F2C1D6265008D25BE /* LoginFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormError.swift; sourceTree = "<group>"; };
+		15CC9A412C1D62E8008D25BE /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		15CC9A432C1D6393008D25BE /* RegisterFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormError.swift; sourceTree = "<group>"; };
 		15CD2E572C10985D00ECCB39 /* BindingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHome.swift; sourceTree = "<group>"; };
 		15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentHome.swift; sourceTree = "<group>"; };
 		15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment_iOS17.swift; sourceTree = "<group>"; };
@@ -183,6 +187,7 @@
 				15CC9A3E2C1D6250008D25BE /* FormErrors */,
 				15CC9A3B2C1D5F2A008D25BE /* Extensions */,
 				15CC9A392C1D5E1A008D25BE /* LoginView.swift */,
+				15CC9A412C1D62E8008D25BE /* RegisterView.swift */,
 			);
 			path = Validation;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				15CC9A3F2C1D6265008D25BE /* LoginFormError.swift */,
+				15CC9A432C1D6393008D25BE /* RegisterFormError.swift */,
 			);
 			path = FormErrors;
 			sourceTree = "<group>";
@@ -292,8 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1587B9192C0B53A4007866EA /* Hike.swift in Sources */,
+				15CC9A442C1D6393008D25BE /* RegisterFormError.swift in Sources */,
 				154878EA2C0F58D9006A29B3 /* CountScreen.swift in Sources */,
 				15CC9A372C1D5D35008D25BE /* NumberFormatterExtensions.swift in Sources */,
+				15CC9A422C1D62E8008D25BE /* RegisterView.swift in Sources */,
 				152250302C0A15D60057FE43 /* ContentView.swift in Sources */,
 				154878EC2C0F5A12006A29B3 /* ToggleScreen.swift in Sources */,
 				15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */,
