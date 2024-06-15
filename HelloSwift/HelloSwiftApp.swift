@@ -12,13 +12,15 @@ struct HelloSwiftApp: App {
     
     // @StateObject private var appState = AppState()
     @State private var appState = GlobalState()
+    @StateObject private var storeModel = StoreModel(webService: WebService())
     
     var body: some Scene {
         WindowGroup {
             NavigationStack {
                 ContentView()
                     //.environmentObject(appState)
-                    .environment(appState)
+                    // .environment(appState)
+                    .environmentObject(storeModel)
             }
         }
     }
