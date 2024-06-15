@@ -18,6 +18,10 @@
 		1587B91B2C0B5ACB007866EA /* HikeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587B91A2C0B5ACB007866EA /* HikeList.swift */; };
 		1587B91D2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1587B91C2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png */; };
 		15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */; };
+		15CC9A292C1D52FF008D25BE /* ProductListHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A282C1D52FF008D25BE /* ProductListHome.swift */; };
+		15CC9A2D2C1D532E008D25BE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A2C2C1D532E008D25BE /* Product.swift */; };
+		15CC9A2F2C1D5369008D25BE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A2E2C1D5369008D25BE /* Webservice.swift */; };
+		15CC9A322C1D5564008D25BE /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CC9A312C1D5564008D25BE /* ProductListViewModel.swift */; };
 		15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E572C10985D00ECCB39 /* BindingHome.swift */; };
 		15CD2E5B2C109AE000ECCB39 /* EnvironmentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */; };
 		15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */; };
@@ -36,6 +40,10 @@
 		1587B91A2C0B5ACB007866EA /* HikeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeList.swift; sourceTree = "<group>"; };
 		1587B91C2C0B5AD9007866EA /* Screen Shot 2019-06-06 at 7.52.51 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-06-06 at 7.52.51 PM.png"; sourceTree = "<group>"; };
 		15BECA2E2C0C10A50020AE79 /* HikeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailsScreen.swift; sourceTree = "<group>"; };
+		15CC9A282C1D52FF008D25BE /* ProductListHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListHome.swift; sourceTree = "<group>"; };
+		15CC9A2C2C1D532E008D25BE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		15CC9A2E2C1D5369008D25BE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		15CC9A312C1D5564008D25BE /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 		15CD2E572C10985D00ECCB39 /* BindingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHome.swift; sourceTree = "<group>"; };
 		15CD2E5A2C109AE000ECCB39 /* EnvironmentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentHome.swift; sourceTree = "<group>"; };
 		15CD2E5C2C109FD500ECCB39 /* Environment_iOS17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment_iOS17.swift; sourceTree = "<group>"; };
@@ -71,6 +79,7 @@
 		1522502C2C0A15D60057FE43 /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
+				15CC9A272C1D52E0008D25BE /* Consume_API */,
 				15CD2E592C109AC300ECCB39 /* Environment */,
 				15CD2E562C10984B00ECCB39 /* Binding */,
 				154878E82C0F3B29006A29B3 /* States */,
@@ -110,6 +119,41 @@
 				1587B9182C0B53A4007866EA /* Hike.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		15CC9A272C1D52E0008D25BE /* Consume_API */ = {
+			isa = PBXGroup;
+			children = (
+				15CC9A302C1D5558008D25BE /* ViewModels */,
+				15CC9A2B2C1D5324008D25BE /* Models */,
+				15CC9A2A2C1D5305008D25BE /* Services */,
+				15CC9A282C1D52FF008D25BE /* ProductListHome.swift */,
+			);
+			path = Consume_API;
+			sourceTree = "<group>";
+		};
+		15CC9A2A2C1D5305008D25BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				15CC9A2E2C1D5369008D25BE /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		15CC9A2B2C1D5324008D25BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15CC9A2C2C1D532E008D25BE /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15CC9A302C1D5558008D25BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				15CC9A312C1D5564008D25BE /* ProductListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		15CD2E562C10984B00ECCB39 /* Binding */ = {
@@ -208,9 +252,13 @@
 				1587B91B2C0B5ACB007866EA /* HikeList.swift in Sources */,
 				15CD2E582C10985D00ECCB39 /* BindingHome.swift in Sources */,
 				15BECA2F2C0C10A50020AE79 /* HikeDetailsScreen.swift in Sources */,
+				15CC9A2F2C1D5369008D25BE /* Webservice.swift in Sources */,
 				1522502E2C0A15D60057FE43 /* HelloSwiftApp.swift in Sources */,
 				15CD2E5D2C109FD500ECCB39 /* Environment_iOS17.swift in Sources */,
+				15CC9A322C1D5564008D25BE /* ProductListViewModel.swift in Sources */,
+				15CC9A292C1D52FF008D25BE /* ProductListHome.swift in Sources */,
 				154878EE2C0F5BE7006A29B3 /* ListScreen.swift in Sources */,
+				15CC9A2D2C1D532E008D25BE /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
